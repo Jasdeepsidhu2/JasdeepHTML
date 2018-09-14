@@ -1,0 +1,39 @@
+.title
+{
+    font-family: 'Vast Shadow';
+    width:90%;
+    background: grey;
+    /* padding: 30px; */
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid #f5b76ebf;
+}
+.main
+ {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    width: 90%;
+    background: #f5c06ed6;
+    margin: 0 auto;
+    border: 5px solid #f5b76ebf;
+    padding: 10px;
+ }
+.links
+{
+    padding: 10px;
+    background: grey;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    border: 5px solid #f5b76ebf;
+    
+}
+button
+{   
+    background: #f5c06ed6;
+}
+a
+{
+    margin: 20px;
+    background:rgba(245, 130, 28, 0.6);
+}

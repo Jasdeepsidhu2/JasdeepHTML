@@ -1,0 +1,9 @@
+button, a, span{
+    background: blueviolet;
+} 
+.box {
+    background: red;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}

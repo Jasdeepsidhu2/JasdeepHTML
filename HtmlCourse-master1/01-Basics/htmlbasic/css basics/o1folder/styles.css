@@ -1,0 +1,34 @@
+/* @ font-face{ 
+    font-family: 'my name';
+    src : url('')}*/
+
+
+
+
+
+
+p {
+    color: rgb(120, 140, 255);
+    font-size: 24px;
+    /* font-weight: 600; */
+    font-style: lighter;
+    letter-spacing: 2px;
+    line-height: 2.0;
+    font-family: raleway,fajalla one;
+
+
+  }
+    h2   {
+        color: rgba(0, 255, 21, 0.8)
+      
+  }  
+  
+  
+  /* good comment */
+  h1 {
+      color: #2501f0;
+      opacity: 0.7;
+      font-size: 24px;
+      text-align: center;
+      /* text-transform: uppercase */
+  }

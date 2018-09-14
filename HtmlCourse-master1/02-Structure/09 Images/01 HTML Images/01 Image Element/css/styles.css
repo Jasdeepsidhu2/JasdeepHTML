@@ -1,0 +1,52 @@
+
+.hero{
+    height: 300px;
+    /* background: #222; */
+    background:
+    linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            
+         url('../image/img2.jpg');    
+
+    background-size: cover;
+    background-position:  50% 50%;
+
+}
+section{
+    margin:50px 0;
+}
+.card{  
+    height: 400px;
+    width: 300px;
+    background: #fff;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    vertical-align: top;
+    box-shadow: 5px 5px 16px 5px #222;
+}
+.card-description{
+    padding: 20px;
+}
+.img-container{
+    width: 100%;
+    background: red;
+}
+img {
+    width: 100%;
+}
+header{
+    height: 80px;
+    background: #222;
+}
+.new-card{
+    width: 30%;
+    height: 350px;
+    /* background: #222; */
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    vertical-align: top;
+    box-shadow: 5px 5px 16px 5px #222;
+
+}
+
