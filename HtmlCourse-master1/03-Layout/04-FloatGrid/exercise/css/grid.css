@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.row .column {
+.row .col {
   float: left;
   margin: 10px 1%;
 }

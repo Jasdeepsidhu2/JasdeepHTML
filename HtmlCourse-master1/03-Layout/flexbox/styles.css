@@ -1,0 +1,38 @@
+/* parent */
+.flex-container{
+    width: 70%;
+    margin: 100px auto 0;
+    background: grey;
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    /* values: row column */
+    flex-direction:row;
+    /* align to right or centre */
+    /* justify-content: flex-end;centre space around */
+    justify-content: flex-start;
+    /* align-items: center;centre in screen according to flex direction by default stretch */
+    /* flex-wrap: wrap;more children wrap them */
+
+
+
+}
+/* child */
+.box {
+    height: 100px;
+    width: 100px;
+    background:violet;
+    margin: 10px;
+    flex-basis: 200px;
+    
+}
+.box-1{
+    flex-grow: 1;
+    flex-shrink: 1;/*not working properly*/
+}
+.box-2{
+    flex-grow: 1;
+}
+.box-3{
+    flex-grow:1;
+}
