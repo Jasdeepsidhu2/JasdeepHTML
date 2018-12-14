@@ -1,3 +1,4 @@
+
 /* * * * * * * * * * * * * * * * *
 Base
 * * * * * * * * * * * * * * * * */
@@ -15,4 +16,27 @@ a {
     font-family: sans-serif;
     font-weight: bold;
     text-decoration: none;
+}
+a:hover{
+    background: #07a;
+
+}
+a:active{
+    background: green;
+
+}
+a:visited{
+    background: black;
+}
+input{
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    outline: none;/*focus glow disable*/
+
+}
+input:focus{/*can control the focus*/
+    border:2px solid #000;
+    background: #c3c3c3;
+
 }

@@ -14,3 +14,15 @@ a {
     text-decoration: none;
     line-height: 60px;
 }
+a + a{
+    color: red;
+}
+a ~ span{
+    color: green;
+}
+a span{
+    color: yellow;
+}
+/* a> span{
+    color: blue;
+} */

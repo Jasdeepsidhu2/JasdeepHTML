@@ -1,0 +1,9 @@
+@font-face
+{
+    font-family: 'Raleway';
+    src: url('./../fonts/Raleway/Raleway-BoldItalic.ttf')
+}
+.main{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}

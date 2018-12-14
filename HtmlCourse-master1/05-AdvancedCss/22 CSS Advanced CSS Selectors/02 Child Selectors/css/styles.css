@@ -13,3 +13,15 @@ a {
     font-weight: bold;
     text-decoration: none;
 }
+a:first-child{
+    background: black;
+}
+a:nth-child(even)
+{
+    background: yellow;
+}
+a:nth-child(n+2)
+{
+    background: purple;
+}
+

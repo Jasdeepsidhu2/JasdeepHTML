@@ -67,7 +67,55 @@ Card
     height: 200px;
     width: 300px;
     background: #555;
+    vertical-align: top;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
+.icons {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    height: 200px;
+    width:50px;
+    padding: 10px;
+    opacity: 0;
+    transition: 0.2s;
+    transform: translate(-60px, 0px);
+
+}
+.card:hover .icons {
+    background: white;
+    opacity: 1;
+    transform: translate(0px, 0px);
+
+}
+ .icons i{
+    opacity: 0;
+    transition: 0.2s;
+    transform: translate(-60px, 0px);
+
+ }
+.card:hover .icons i{
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+.card i:nth-child(1)
+{
+    transition-delay: 0.2s;
+}
+.card i:nth-child(2){
+    transition-delay: 0.4s;
+
+}
+
+.card i:nth-child(3){
+    transition-delay: 0.6s;
+}
+.card i:nth-child(4){
+    transition-delay: 0.8s;
+}
+
 
 
 

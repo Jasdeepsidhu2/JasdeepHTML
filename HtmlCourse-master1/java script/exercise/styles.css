@@ -1,0 +1,34 @@
+
+body
+{
+    padding: 0;
+    margin: 0;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+
+.menu{
+    width: 200px;
+    height: 100vh;
+    background: coral;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    transform: translate(0px,0px);
+
+
+}
+.closed{
+    width: 200px;
+    height: 100vh;
+    background: coral;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.4s;
+    transform: translate(-200px, 0px);
+}

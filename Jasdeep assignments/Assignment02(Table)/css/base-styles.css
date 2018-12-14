@@ -1,0 +1,22 @@
+
+*{
+    box-sizing: border-box;
+}
+.wrapper {
+    margin: 0 auto;
+    /* width: 90%;*/
+    max-width: 1200px;
+    margin-top: 20px; 
+   }
+
+a {
+    display: inline-block;
+    padding: 10px 25px;
+    
+}
+
+/* @media (max-width: 700px) {
+    .wrapper {
+        margin-top: 40px;
+    }
+} */

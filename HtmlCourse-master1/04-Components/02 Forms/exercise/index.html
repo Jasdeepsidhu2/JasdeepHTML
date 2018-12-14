@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form1">
+            <form 
+                action="http://form.garysjennings.com/submit"
+                method="post"
+            >   
+            
+            <!-- text input -->
+                    <label for="username">Username
+                        <input 
+                            type="text" 
+                            id="username"
+                            name="name" 
+                            placeholder='username'/> 
+                    </label>
+                <br><br>
+            <!-- select input -->
+            <label for="">Select Your Job</label><br>
+                <label for="job">Job</label>
+                    <select name="job" id="job">
+                        <option value="one">Frontend devloper</option>
+                        <option value="two">Backend devloper</option>
+                        <option value="three">Full Stack devloper</option>
+
+                    </select>
+            <br><br>
+            <!-- radio input -->
+            <label for="">Enter Your Location</label><br>
+                <input type="radio" id="calgray" name="location" value="calgary"/>
+                    <label for="calgary">Calgary</label>
+                    <br>
+                <input type="radio" id="Edmonton" name="location" value="Edmonton"/>
+                    <label for="Edmonton">Edmontom</label>
+                    <br>
+                <input type="radio" id="Airdrie" name="location" value="airdrie"/>
+                    <label for="Airdrie">Airdrie</label>
+                    <br>
+                <input type="radio" id="Reddeer" name="location" value="reddeer"/>
+                    <label for="Reddeer">Reddeer</label>
+            <br><br>
+
+            <!-- checkbox input -->
+            <label>Skills</label><br>
+                <input 
+                    type="checkbox" 
+                    id="ts" 
+                    name="skills" 
+                    value="ts">
+                <label for="ts">Techinal Skills</label>
+                <br>
+                <input 
+                    type="checkbox" 
+                    id="ss" 
+                    name="skills" 
+                    value="ss">
+                <label for="ss">Soft Skills</label>
+                <br>
+                <input 
+                    type="checkbox" 
+                    id="cs" 
+                    name="skills" 
+                    value="cs">
+                <label for="cs">Communication Skills</label>
+                <br>
+                <input 
+                    type="checkbox" 
+                    id="os" 
+                    name="skills" 
+                    value="os">
+                <label for="os">Other Skills</label>
+                <br><br>
+            <!-- textarea -->
+                <label for="thougts">Some Thoughts</label><br>
+                <input type="textarea" name="thougts" id="thougts">
+                <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

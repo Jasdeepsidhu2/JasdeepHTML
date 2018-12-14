@@ -1,0 +1,230 @@
+/* * * * * * * * * * * * * * * * * * * * *
+General
+* * * * * * * * * * * * * * * * * * * * */
+/* 
+* {
+  box-sizing: border-box;
+}already in bootstrap */
+
+.wrapper {
+   width: 90%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+   
+ h1{
+    font-family: 'Domine', serif;
+    margin: 0;
+    font-size: 3em;
+  }
+  h2{
+    font-family: 'Domine', serif;
+    font-size: 2em;
+    }
+  a{
+    font-family: 'Domine', serif;
+
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+Header
+* * * * * * * * * * * * * * * * * * * * */
+.head{
+    font-family: 'Domine', serif;
+    font-size: 20px;
+    display: flex;
+    align-items: stretch;
+    height: 80px;
+}
+header {
+    background: linear-gradient(180deg, #ffc80042,#9100ff8c);
+       
+      }
+.logo {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background : transparent;
+    margin-right: auto;
+    padding: 10px;
+    color: #007bff;
+    
+}
+.logo span{
+    margin-left: 8px;
+}
+header ul{
+   margin-bottom: 0;
+
+    
+    display: flex;
+}
+header ul li {
+    list-style: none;
+
+}
+header ul li a{
+    
+    height: 80px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+
+}
+header ul li a:hover{
+    background: #efefef;
+    text-decoration: none;
+}
+.hamburger-icon{
+    display: none;
+    background: transparent;
+    border: none;
+    padding-top: 30px;
+    color:#007bff;
+}
+
+.hamburger-icon :hover{
+       cursor: pointer;
+}
+
+
+@media (max-width:600px){
+    header ul {
+        display: none;
+    }
+    .hamburger-icon{
+        display: block;
+       
+    
+        
+    }
+}
+
+
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+Hero
+* * * * * * * * * * * * * * * * * * * * */
+.hero {
+    color: white;
+    /* padding-top: 550px; */
+    height: 800px;
+    background: url('./../css/images/adventure-backlit-birds-443356.jpg');
+     background-size: cover;
+     background-position: right;
+     
+}
+.hero .wrapper{
+    display: flex;
+    height: 100%;
+}
+.hero-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    
+}
+
+.hero hr{
+    border-color: white;
+}
+.hero button{
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background: #007bff;
+    padding: 10px 25px;
+}
+.hero button:hover{
+    cursor: pointer;
+    background: #007bff75;;
+}
+@media screen and (max-width: 600px)
+{
+    .hero{
+        height: 400px;
+    }
+    .hero-content{
+        width: 100%;
+        justify-content: flex-end;
+    }
+    h1{
+        font-size: 2em;
+    }
+   
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+Main
+* * * * * * * * * * * * * * * * * * * * */
+
+
+.main {
+    background: #e9e9f7;
+    min-height: 400px;
+    padding: 80px 50px;
+    margin: 30px auto;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * *
+Footer
+* * * * * * * * * * * * * * * * * * * * */
+footer {
+    background: #e9e9f7;
+    padding: 40px 0 80px;
+}
+footer h2{
+    color: black;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin: 0 0 0px 20px;
+}
+footer ul{
+    margin: 0 0 30px 20px;
+    padding: 0;
+}
+footer li{
+    color: grey;
+    list-style: none;
+    margin: 8px 0px;
+}
+footer a{
+    color: grey;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.social-icons{
+    width: 100px;
+    display: flex;
+    justify-content:space-around;
+ }
+ .footer-part-2 ul{
+     display: flex;
+ }
+ @media screen and (max-width: 800px)
+{
+    footer{
+        width: 90%;
+        margin:0px auto;
+
+    }
+    footer h2,footer ul {
+        
+          margin-left:100px;
+
+    }
+    footer h2{
+        font-size: 1em;
+    }
+     
+}
